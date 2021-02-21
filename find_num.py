@@ -1,9 +1,9 @@
+#백준 1920
 table = [[] for i in range(0,100000)]
 n = input()
 keys = list(map(int,input().split()))
 m = input()
 compare = list(map(int,input().split()))
-
 
 for k in keys:
     idx = k % len(table)
